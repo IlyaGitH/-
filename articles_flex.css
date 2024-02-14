@@ -1,0 +1,39 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.header-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.header-logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-grow: 1;
+    margin-left: 15px;
+}
+
+.logo-img {
+    margin-right: 30px;
+}
+
+.header-menu { 
+    display: flex;
+    flex-grow: 3;
+    flex-direction: row-reverse;
+}
+
+.tip {
+    display: flex;
+    flex-direction: row;
+}
+
+.cards-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

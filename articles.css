@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    width: 100%;
+    color: rgb(50, 94, 50);
+    background: white;
+    box-sizing: border-box;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    box-shadow: 0px 1px 2px 0px rgb(0, 183, 255);
+    z-index: 100;
+    -webkit-box-shadow: 0 2px 15px rgba(0, 183, 255);
+    box-shadow: 0 2px 15px rgba(0, 183, 255);
+}
+
+.header_fixed {
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+
+.header__inner {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 0 15px;
+  }
+
+.vr {
+    padding: 15px;
+}
+
+.menu-item {
+    list-style-type: none;
+    padding: 40px;
+}
+
+#pr {
+    color: rgba(0, 183, 255, 0.301);
+}
+
+.menu-link:hover {
+    text-decoration: underline;
+}
+
+.menu-link {
+    list-style-type: none;
+    color: rgb(0, 183, 255);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.card-title {
+    font-family: Trebuchet MS, sans-serif;
+    padding-top: 20px;
+    color: rgb(78, 127, 192);
+}
+
+.cards-text {
+    font-family: FreeMono, monospace;
+    text-align: center;
+}
+
+.cards-section {
+    padding: 50px 0px;
+}
+
+.cards-title, .cards-description {
+    color: #151c39;
+    text-align: center;
+}
+
+#left {
+    margin-left: 40px;
+}
+
+#right {
+    margin-right: 40px;
+}
+
+.card:hover {
+    box-shadow: 0px 2px 7px 0px #0262a1;
+}
+
+.card {
+    min-height: 360px;
+    height: 1%;
+    margin-top: 25px;
+    width: 30%;
+    border-radius: 4%;
+    background: white;
+    box-shadow: 0px 2px 7px 0px #0099ff8b;
+    text-align: center;
+}
+
+.card-img {
+    width: 90%;
+    height: 40%;
+    align-items: center;
+    margin-top: 10px;
+    border-radius: 10%;
+    box-shadow: 0px 2px 11px 0px #1957809a;
+}
+
+.card-link {
+    text-decoration: none;
+    color: white;
+}
+
+.card-title, .card-text {
+    margin-bottom: 10px;
+}
